@@ -1,0 +1,115 @@
+.appoinment-step {
+  margin-top: 25px;
+  .ant-select-selection-search-input {
+    margin-top: 3px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(174, 176, 208, 0.7);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+
+    svg {
+      color: #022e61;
+      width: 14px;
+    }
+
+    h4 {
+      color: #022e61;
+      margin: 0;
+      margin-left: 10px;
+      font-weight: 600;
+      font-size: 24px;
+      @media screen and (max-width: 763px) {
+        font-size: 18px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 15px;
+    color: #022e61;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 763px) {
+      font-size: 13px;
+    }
+  }
+
+  .options-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    label {
+      margin-right: 40px;
+    }
+
+    .ant-radio-group {
+      display: flex;
+      align-items: center;
+
+      label {
+        margin-right: 10px;
+
+        .ant-radio {
+          top: 1px;
+        }
+      }
+    }
+    @media screen and (max-width: 763px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+
+    .thumb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 62px;
+      height: 62px;
+      border-radius: 50px;
+      overflow: hidden;
+      margin-right: 15px;
+    }
+
+    .detail {
+      h4 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+        color: #022e61;
+      }
+
+      p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 15px;
+        color: #022e61;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .btn-wrapper {
+    text-align: right;
+    margin-top: 30px;
+    @media screen and (max-width: 763px) {
+      margin: 15px 0 20px 0;
+    }
+  }
+}
